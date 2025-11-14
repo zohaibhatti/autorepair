@@ -74,12 +74,12 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav  mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="index.html#why-choose-us">Why Choose Us</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
                         </ul>
                         <div class="header-bar">
                             <button>book now</button>
@@ -121,60 +121,62 @@
 
     <!-- contact form -->
     <section>
-        <div class="contact-form">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 p-0">
-                        <form>
-                            <div class="form-area">
-                                <h3>Get in touch</h3>
-                                <div class="row">
-                                    <div class="col-md-6"></div>
-                                    <div class="col-md-6"></div>
-                                    <div class="col-12 col-sm-6 mb-3">
-                                        <input type="text" id="name" class="form-control" placeholder="Name"
-                                            style="height: 55px;">
-                                    </div>
+        <div data-aos="fade-up">
+            <div class="contact-form">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 p-0">
+                            <form>
+                                <div class="form-area">
+                                    <h3>Get in touch</h3>
+                                    <div class="row">
+                                        <div class="col-md-6"></div>
+                                        <div class="col-md-6"></div>
+                                        <div class="col-12 col-sm-6 mb-3">
+                                            <input type="text" id="name" class="form-control" placeholder="Name"
+                                                style="height: 55px;">
+                                        </div>
 
-                                    <div class="col-12 col-sm-6 mb-3">
-                                        <input type="email" id="email" class="form-control" placeholder="Email"
-                                            style="height: 55px;">
-                                    </div>
+                                        <div class="col-12 col-sm-6 mb-3">
+                                            <input type="email" id="email" class="form-control" placeholder="Email"
+                                                style="height: 55px;">
+                                        </div>
 
-                                    <div class="col-12 col-sm-12 mb-3">
-                                        <input type="email" id="email" class="form-control" placeholder="Subject"
-                                            style="height: 55px;">
+                                        <div class="col-12 col-sm-12 mb-3">
+                                            <input type="email" id="email" class="form-control" placeholder="Subject"
+                                                style="height: 55px;">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <textarea id="message" class="form-control" rows="5"
+                                                placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="contact-form-button">
+                                            <button>SEND MESSAGE</button>
+                                        </div>
                                     </div>
-                                    <div class="col-12 mb-3">
-                                        <textarea id="message" class="form-control" rows="5"
-                                            placeholder="Message"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-5 p-0">
+                            <div class="second-contact">
+                                <h3>Contact us</h3>
+                                <div class="second-cnt-len">
+                                    <div class="new-contact d-flex">
+                                        <i class="fa fa-map"></i>
+                                        <h4><span>Address:</span>198 West 21th Street, Suite 721 New York NY 10016</h4>
                                     </div>
-                                    <div class="contact-form-button">
-                                        <button>SEND MESSAGE</button>
+                                    <div class="new-contact d-flex">
+                                        <i class="fa fa-phone"></i>
+                                        <h4><span>Phone: </span>+ 1235 2355 98</h4>
                                     </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-5 p-0">
-                        <div class="second-contact">
-                            <h3>Contact us</h3>
-                            <div class="second-cnt-len">
-                                <div class="new-contact d-flex">
-                                    <i class="fa fa-map"></i>
-                                    <h4><span>Address:</span>198 West 21th Street, Suite 721 New York NY 10016</h4>
-                                </div>
-                                <div class="new-contact d-flex">
-                                    <i class="fa fa-phone"></i>
-                                    <h4><span>Phone: </span>+ 1235 2355 98</h4>
-                                </div>
-                                <div class="new-contact d-flex">
-                                    <i class="fa fa-paper-plane"></i>
-                                    <h4><span>Email:</span> info@yoursite.com</h4>
-                                </div>
-                                <div class="new-contact d-flex">
-                                    <i class="fa fa-globe"></i>
-                                    <h4><span>Website:</span>yoursite.com</h4>
+                                    <div class="new-contact d-flex">
+                                        <i class="fa fa-paper-plane"></i>
+                                        <h4><span>Email:</span> info@yoursite.com</h4>
+                                    </div>
+                                    <div class="new-contact d-flex">
+                                        <i class="fa fa-globe"></i>
+                                        <h4><span>Website:</span>yoursite.com</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -267,6 +269,12 @@
     </footer>
 
 
+    <!-- Back To Top -->
+    <button class="button type1" id="backToTop">
+        <i class="btn-txt fa-solid fa-arrow-up"></i>
+    </button>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -274,6 +282,10 @@
     <script src="js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Initialize Swiper -->
     <script>
